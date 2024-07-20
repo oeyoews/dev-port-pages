@@ -5,8 +5,8 @@
   "private": true,
   "description": "manifest.json description",
   "scripts": {
-    "dev": "wxt",
-    "dev:firefox": "wxt -b firefox",
+    "dev": "wxt --mode development",
+    "dev:firefox": "wxt -b firefox --mode development",
     "build": "wxt build",
     "build:firefox": "wxt build -b firefox",
     "zip": "wxt zip",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
